@@ -70,11 +70,30 @@ SECTION h1 {
     text-transform: uppercase;
     font-weight: 800;
     line-height: 8.5vw;
+    padding: 0;
+    margin-top: 0%;
+    
 }
 
 #home {
     background-color: #000000;
     color: white;
+}
+
+#home img {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+}
+
+#home Screenshot 2024-10-26 221400.png {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
 }
 
 #moving-div {
@@ -86,7 +105,7 @@ SECTION h1 {
     padding: 1.2vw;
     overflow: hidden;
     width: 45%;
-    margin-left: 50vh;
+    margin-left: 55vh;
 }
 
 #moving-div .move {
@@ -186,16 +205,54 @@ SECTION h1 {
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
     text-align: justify;
-    color: red;
+    color: rgb(255, 255, 255);
+    
 }
 
+.social-media a img {
+    color: white;
+    background-color: white;
+}
+
+
 .social-media a:hover {
-    background: rgb(221, 69, 69);
+    background: white;
     color: rgb(248, 248, 248);
     box-shadow: 0 0 1rem rgb(230, 217, 217);
 }
 
 
+.newsletter {
+    padding: 80px 0;
+    background: #f2f2f2;
+    }
+    
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+}
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+}
 
 footer {
     text-align: center;
@@ -207,3 +264,5 @@ footer {
     font-weight: 200;
     font-style: oblique;
 }
+
+
